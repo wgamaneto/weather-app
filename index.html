@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>Weather App</h1>
+      <form id="searchForm">
+        <input type="text" id="cityInput" placeholder="Digite a cidade" />
+        <button type="submit">Pesquisar Clima</button>
+      </form>
+      <div id="result">
+        <h2>Clima atual:</h2>
+        <p><strong>Temperatura:</strong> <span id="temp"></span>°C</p>
+        <p><strong>Condição:</strong> <span id="condition"></span></p>
+        <p><strong>Umidade:</strong> <span id="humidity"></span>%</p>
+      </div>
+    </div>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>
